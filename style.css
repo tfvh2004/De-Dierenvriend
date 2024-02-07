@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #F0F7EE;
+}
+
+.s1 {
+  background-image: url("./img/dierenvriend2-E.jpg");
+  background-size: cover;
+}
+
+.section h1 {
+  font-size: 64px;
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background: linear-gradient(to left, #87df8b, #64966d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s2 {
+  background: linear-gradient(to left top, rgb(221, 234, 255), white);
+}
+
+.s3 {
+  background: linear-gradient(to left top, rgb(217, 255, 219), white);
+}
+
+.s4 {
+  background: linear-gradient(to left top, rgb(255, 205, 205), white);
+}
+
+.s2 h1 {
+  font-size: 48px;
+  background: linear-gradient(to left, #404042, #373838);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.chair {
+  height: 60%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description {
+  margin-top: 20%;
+  width: 50%;
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+.description p {
+  margin: 50px 0px;
+}
+
+#stores {
+  display: flex;
+  justify-content: center;
+  margin-top: -10%
+}
+
+#stores p {
+  font-weight: bold;
+}
+
+#stores ul {
+  list-style: none;
+}
+
+#barendrecht-winkel {
+  margin-right: 10%;
+}
+
+#bezorgen {
+  margin-top: 2%;
+}
+
+.text {
+  text-align: center;
+  margin: 1%;
+}
+
+#meer-bezorgen h1 {
+  background: linear-gradient(to left, #87df8b, #64966d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#woof-logo {
+  max-height: 30%;
+  margin-left: 10%;
+  margin-top: -10%;
+}
+
+#bezorger {
+  max-height: 40%;
+  margin-left: 15%;
+}
+
+#dhl-logo {
+  max-height: 20%;
+  margin-left: 10%;
+  margin-top: -5%;
+}
