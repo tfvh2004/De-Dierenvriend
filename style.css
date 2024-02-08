@@ -293,7 +293,7 @@ body {
   }
 }
 
-@media screen and (max-width: 768x) {
+@media screen and (max-width: 769x) {
   #wrapper-logo {
     margin-bottom: 10%;
   }
