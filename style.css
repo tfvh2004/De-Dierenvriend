@@ -94,8 +94,8 @@ body {
 #woof-logo {
   max-height: 20%;
   position: absolute;
-  top: 0%; /* Adjust the top position */
-  right: 0%; /* Align to the right */
+  top: 50%; 
+  margin-right: 30%;
 }
 
 
