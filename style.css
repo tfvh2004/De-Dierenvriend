@@ -179,11 +179,13 @@ body {
 #woof-logo {
   max-height: 20%;
   top: 50%;
+  margin-left: 15%;
 }
 
 #bezorger {
   max-height: 40%;
   margin-left: 15%;
+  top: 62.5%;
 }
 
 #dhl-logo {
@@ -266,15 +268,15 @@ body {
   }
 
   #woof-logo {
-    max-height: 15%; /* Adjusted max height for logos */
+    display: none;
   }
 
   #bezorger {
-    max-height: 30%; /* Adjusted max height for logos */
+    display: none;
   }
 
   #dhl-logo {
-    max-height: 15%; /* Adjusted max height for logos */
+    display: none;
   }
 
   #wrapper-logo {
