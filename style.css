@@ -18,6 +18,7 @@ body {
 .s1 a {
   color: #24B4B1;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .s1 a:hover {
@@ -27,10 +28,12 @@ body {
 
 .s1 a:active {
   color: hotpink;
+  cursor: pointer;
 }
 
 .s1 a:visited {
   color: #01283B;
+  cursor: pointer;
 }
 
 .section h1 {
@@ -48,6 +51,7 @@ body {
 .s2 a {
   color: #01283B;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .s2 a:hover {
@@ -57,10 +61,12 @@ body {
 
 .s2 a:active {
   color: hotpink;
+  cursor: pointer;
 }
 
 .s2 a:visited {
   color: #fff;
+  cursor: pointer;
 }
 
 .s3 {
@@ -71,6 +77,7 @@ body {
 .s3 a {
   color: #FF766E;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .s3 a:hover {
@@ -80,10 +87,12 @@ body {
 
 .s3 a:active {
   color: hotpink;
+  cursor: pointer;
 }
 
 .s3 a:visited {
   color: #FFF4E3;
+  cursor: pointer;
 }
 
 .s4 {
@@ -94,6 +103,7 @@ body {
 .s4 a {
   color: #D85D56;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .s4 a:hover {
@@ -103,10 +113,12 @@ body {
 
 .s4 a:active {
   color: hotpink;
+  cursor: pointer;
 }
 
 .s4 a:visited {
   color: #0C4966;
+  cursor: pointer;
 }
 
 .s2 h1 {
