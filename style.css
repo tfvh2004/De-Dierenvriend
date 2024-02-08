@@ -293,6 +293,20 @@ body {
   }
 }
 
+@media screen and (max-device-width: 768px) {
+  .description {
+    margin-top: 15%;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  .description p {
+    margin: 50px 0px;
+  }
+}
+
 @media only screen and (min-device-width: 767px) and (max-device-width: 1024px) and (orientation: portrait) {
   #wrapper-logo {
     margin-bottom: 10%;
