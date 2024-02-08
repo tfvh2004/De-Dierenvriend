@@ -291,6 +291,26 @@ body {
   #wrapper-logo {
     max-height: 30%; /* Adjusted max height for logos */
   }
+}
 
+@media screen and (max-width: 428px) {
+  #wrapper-logo {
+    margin-bottom: 10%;
+  }
 
+  #woof-logo {
+    display: none;
+  }
+
+  #bezorger {
+    display: none;
+  }
+
+  #dhl-logo {
+    display: none;
+  }
+
+  #bezorger {
+    display: none;
+  }
 }
