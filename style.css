@@ -213,6 +213,11 @@ body {
 #service-kleur {
   color: #0C4966;
 }
+
+#meer-dhl h1 {
+  text-align: center;
+}
+
 @media screen and (max-width: 428px) {
   /* Styles for iPhone 15 */
 
@@ -287,7 +292,5 @@ body {
     max-height: 30%; /* Adjusted max height for logos */
   }
 
-  #meer-dhl h1 {
-    text-align: center;
-  }
+
 }
