@@ -9,10 +9,11 @@ body {
   background-color: #F0F7EE;
 }
 
+/*
 .s1 {
   background-image: url("./img/dierenvriend2-E.jpg");
   background-size: cover;
-}
+}*/
 
 .section h1 {
   font-size: 64px;
@@ -20,9 +21,7 @@ body {
   top: 6%;
   left: 50%;
   transform: translate(-50%, -20%);
-  background: linear-gradient(to left, #87df8b, #64966d);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #53a8a7;
 }
 
 .s2 {
@@ -39,9 +38,7 @@ body {
 
 .s2 h1 {
   font-size: 48px;
-  background: linear-gradient(to left, #404042, #373838);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #53a8a7;
 }
 
 .chair {
@@ -66,7 +63,7 @@ body {
 #stores {
   display: flex;
   justify-content: center;
-  margin-top: -10%
+  margin-top: -10% 
 }
 
 #stores p {
@@ -78,11 +75,11 @@ body {
 }
 
 #barendrecht-winkel {
-  margin-right: 10%;
+  margin-right: 30%;
 }
 
 #bezorgen {
-  margin-top: 2%;
+  margin-top: 4%;
 }
 
 .text {
@@ -91,16 +88,16 @@ body {
 }
 
 #meer-bezorgen h1 {
-  background: linear-gradient(to left, #87df8b, #64966d);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #53a8a7;
 }
 
 #woof-logo {
   max-height: 30%;
-  margin-left: 10%;
-  margin-top: -10%;
+  position: absolute;
+  top: 0%; /* Adjust the top position */
+  right: 0%; /* Align to the right */
 }
+
 
 #bezorger {
   max-height: 40%;
@@ -111,4 +108,14 @@ body {
   max-height: 20%;
   margin-left: 10%;
   margin-top: -5%;
+}
+
+#wrapper-logo {
+  max-height: 40%;
+  margin: 0 auto;
+  display: block;
+}
+
+#rotterdam-winkel {
+  text-align: right;
 }
