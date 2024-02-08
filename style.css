@@ -9,11 +9,29 @@ body {
   background-color: #F0F7EE;
 }
 
-/*
 .s1 {
-  background-image: url("./img/dierenvriend2-E.jpg");
-  background-size: cover;
-}*/
+  /*background-image: url("./img/dierenvriend2-E.jpg");
+  background-size: cover;*/
+  background-color: #FFF4E3;
+}
+
+.s1 a {
+  color: #24B4B1;
+  text-decoration: none;
+}
+
+.s1 a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.s1 a:active {
+  color: hotpink;
+}
+
+.s1 a:visited {
+  color: #01283B;
+}
 
 .section h1 {
   font-size: 64px;
@@ -21,24 +39,78 @@ body {
   top: 6%;
   left: 50%;
   transform: translate(-50%, -20%);
-  color: #53a8a7;
 }
 
 .s2 {
-  background: linear-gradient(to left top, rgb(221, 234, 255), white);
+  background-color: #24B4B1;
+}
+
+.s2 a {
+  color: #01283B;
+  text-decoration: none;
+}
+
+.s2 a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.s2 a:active {
+  color: hotpink;
+}
+
+.s2 a:visited {
+  color: #fff;
 }
 
 .s3 {
-  background: linear-gradient(to left top, rgb(217, 255, 219), white);
+  background-color: #0C4966;
+  color: #FFF4E3;
+}
+
+.s3 a {
+  color: #FF766E;
+  text-decoration: none;
+}
+
+.s3 a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.s3 a:active {
+  color: hotpink;
+}
+
+.s3 a:visited {
+  color: #FFF4E3;
 }
 
 .s4 {
-  background: linear-gradient(to left top, rgb(255, 205, 205), white);
+  background-color:  #9CEFEE;
+  color:#0C4966;
+}
+
+.s4 a {
+  color: #D85D56;
+  text-decoration: none;
+}
+
+.s4 a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.s4 a:active {
+  color: hotpink;
+}
+
+.s4 a:visited {
+  color: #0C4966;
 }
 
 .s2 h1 {
   font-size: 48px;
-  color: #53a8a7;
 }
 
 .chair {
@@ -54,6 +126,7 @@ body {
   width: 50%;
   margin-left: 5%;
   font-size: 20px;
+  color: #fff;
 }
 
 .description p {
@@ -88,7 +161,7 @@ body {
 }
 
 #meer-bezorgen h1 {
-  color: #53a8a7;
+  color: #fff;
 }
 
 #woof-logo {
@@ -123,6 +196,9 @@ body {
   font-size: 16px;
 }
 
+#service-kleur {
+  color: #0C4966;
+}
 @media screen and (max-width: 428px) {
   /* Styles for iPhone 15 */
 
