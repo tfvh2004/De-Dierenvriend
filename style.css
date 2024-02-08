@@ -131,6 +131,18 @@ body {
     width: 100%;
   }
 
+  #stores {
+    margin-top: -5%; /* Adjusted margin top for store information */
+    display: flex; /* Change to flex display */
+    flex-wrap: wrap; /* Allow wrapping of store elements */
+    justify-content: center; /* Center the elements horizontally */
+  }
+
+  #stores > div {
+    width: 45%; /* Set width to 45% to fit two stores per row */
+    margin: 2.5%; /* Add margin to create space between stores */
+  }
+
   #barendrecht-winkel {
     margin-right: 10%;
   }
