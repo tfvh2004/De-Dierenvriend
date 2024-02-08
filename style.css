@@ -117,6 +117,12 @@ body {
   text-align: right;
 }
 
+.dis {
+  display: inline;
+  font-weight: normal;
+  font-size: 16px;
+}
+
 @media screen and (max-width: 428px) {
   /* Styles for iPhone 15 */
 
@@ -131,6 +137,9 @@ body {
     width: 100%;
   }
 
+  .dis {
+    display: none;
+  }
 
   #barendrecht-winkel {
     width: 40%;
