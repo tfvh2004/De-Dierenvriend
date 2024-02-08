@@ -24,6 +24,7 @@ body {
 .s1 a:hover {
   text-decoration: underline;
   cursor: pointer;
+  color: hotpink;
 }
 
 .s1 a:active {
