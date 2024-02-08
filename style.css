@@ -245,7 +245,7 @@ body {
   }
 
   .section h1 {
-    font-size: 20px; /* Adjusted font size for headings */
+    font-size: 40px; /* Adjusted font size for headings */
   }
 
   .description {
@@ -281,5 +281,10 @@ body {
 
   #wrapper-logo {
     max-height: 30%; /* Adjusted max height for logos */
+  }
+
+  #meer-dhl h1 {
+    text-align: center;
+    color: yellow;
   }
 }
