@@ -150,6 +150,10 @@ body {
     width: 40%;
   }
 
+  #bezorgen {
+    margin-top: 8%;
+  }
+
   .section h1 {
     font-size: 40px; /* Adjusted font size for headings */
   }
