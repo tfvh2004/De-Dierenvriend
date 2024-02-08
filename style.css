@@ -119,6 +119,15 @@ body {
 
 @media screen and (max-width: 428px) {
   /* Styles for iPhone 15 */
+
+  #wrapper-logo {
+    max-height: 20%;
+  }
+
+  #barendrecht-winkel {
+    margin-right: 10%;
+  }
+
   .section h1 {
     font-size: 40px; /* Adjusted font size for headings */
   }
@@ -161,3 +170,4 @@ body {
   #wrapper-logo {
     max-height: 30%; /* Adjusted max height for logos */
   }
+}
