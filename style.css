@@ -218,28 +218,6 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 768x) {
-  #wrapper-logo {
-    margin-bottom: 10%;
-  }
-
-  #woof-logo {
-    display: none;
-  }
-
-  #bezorger {
-    display: none;
-  }
-
-  #dhl-logo {
-    display: none;
-  }
-
-  #bezorger {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 428px) {
   /* Styles for iPhone 15 */
 
@@ -315,7 +293,7 @@ body {
   }
 }
 
-@media screen and (max-width: 768x) {
+@media screen and (max-width: 1024x) {
   #wrapper-logo {
     margin-bottom: 10%;
   }
