@@ -95,7 +95,7 @@ body {
   max-height: 20%;
   position: absolute;
   top: 50%; 
-  margin-right: 60%;
+  margin-right: -60%;
 }
 
 
