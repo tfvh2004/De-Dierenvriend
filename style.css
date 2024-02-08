@@ -63,7 +63,7 @@ body {
 #stores {
   display: flex;
   justify-content: center;
-  margin-top: -10% 
+  margin-top: -10%;
 }
 
 #stores p {
@@ -122,6 +122,13 @@ body {
 
   #wrapper-logo {
     max-height: 20%;
+  }
+
+  #stores {
+    display: flex;
+    justify-content: center;
+    margin-top: -10%;
+    width: 100%;
   }
 
   #barendrecht-winkel {
