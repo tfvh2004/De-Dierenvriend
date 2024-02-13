@@ -320,7 +320,7 @@ body {
 @media screen and (max-device-width: 768px) {
   .description {
     margin-top: 15%;
-    width: 50%;
+    width: 80%;
     margin-left: 5%;
     font-size: 20px;
     color: #fff;
