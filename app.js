@@ -4,7 +4,10 @@ TweenMax.defaultEase = Linear.easeOut;
 const screenWidth = window.innerWidth;
 const navigationEnabled = screenWidth > 428;
 
-new fullpage("#fullpage", {
+// Variable to hold fullpage.js instance
+let myFullpageInstance;
+
+myFullpageInstance = new fullpage("#fullpage", {
   // Options here
   autoScrolling: true,
   navigation: navigationEnabled, // Set navigation based on screen width
@@ -29,3 +32,8 @@ new fullpage("#fullpage", {
     }
   }
 });
+
+// Function to scroll to section
+function scrollToSection(sectionIndex) {
+    myFullpageInstance.moveTo(sectionIndex);
+}
