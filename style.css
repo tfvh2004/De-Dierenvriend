@@ -272,8 +272,7 @@ body {
   }
 
   #wrapper-logo {
-    height: 20%;
-    height: 20%;
+    height: 30%;
     margin-bottom: 10%;
   }
 
@@ -333,10 +332,6 @@ body {
 
   #dhl-logo {
     display: none;
-  }
-
-  #wrapper-logo {
-    height: 30%;
   }
 }
 
