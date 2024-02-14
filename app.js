@@ -30,7 +30,9 @@ myFullpageInstance = new fullpage("#fullpage", {
         .fromTo(chairs[1], 1, { opacity: 0 }, { opacity: 1 })
         .fromTo(chairs[2], 1, { opacity: 0 }, { opacity: 1 });
     }
-  }
+  },
+  touchSensitivity: 10, // Set touch sensitivity to handle touch events better
+  scrollingSpeed: 700 // Set scrolling speed for smoother scrolling experience
 });
 
 // Function to scroll to section
