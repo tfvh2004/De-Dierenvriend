@@ -212,7 +212,6 @@ body {
 
 #wrapper-logo {
   height: 40%;
-  width: 40%;
   margin: 0 auto;
   display: block;
 }
@@ -273,7 +272,7 @@ body {
 
   #wrapper-logo {
     height: 20%;
-    width: 20%;
+    height: 20%;
     margin-bottom: 10%;
   }
 
@@ -336,7 +335,6 @@ body {
   }
 
   #wrapper-logo {
-    width: 30%;
     height: 30%;
   }
 }
