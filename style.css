@@ -247,6 +247,10 @@ body {
   font-weight: bold;
 }
 
+#services {
+  text-align: center;
+}
+
 @media screen and (max-width: 428px) {
   /* Styles for iPhone 15 */
 
