@@ -211,7 +211,8 @@ body {
 }
 
 #wrapper-logo {
-  height: 40%;
+  height: 290px;
+  width: 200px;
   margin: 0 auto;
   display: block;
 }
