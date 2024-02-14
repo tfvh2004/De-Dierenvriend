@@ -6,7 +6,8 @@
 
 body {
   background-color: #F0F7EE;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 35px;
 }
 
 .section h1 {
@@ -157,14 +158,20 @@ body {
   display: flex;
   justify-content: center;
   margin-top: -10%;
+  line-height: 25px;
 }
 
 #stores p {
   font-weight: bold;
+  line-height: 20px;
 }
 
 #stores ul {
   list-style: none;
+}
+
+.maandag {
+  margin-top: 10%;
 }
 
 #barendrecht-winkel {
@@ -177,7 +184,6 @@ body {
 
 .text {
   text-align: center;
-  margin: 1%;
 }
 
 #meer-bezorgen h1 {
@@ -248,7 +254,12 @@ body {
 }
 
 #services {
+  line-height: 25px;
   text-align: center;
+}
+
+.bezorgertje {
+  margin-top: 1%;
 }
 
 @media screen and (max-width: 428px) {
