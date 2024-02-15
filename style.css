@@ -300,9 +300,7 @@ body {
     margin-top: 8%;
   }
 
-  #bezorgservice-cont {
-    margin-top: 5%;
-  }
+
 
   .section h1 {
     font-size: 40px; 
@@ -337,6 +335,10 @@ body {
 
   #dhl-logo {
     display: none;
+  }
+  
+  #bezorgservice-cont {
+    margin-top: 15%;
   }
 }
 
