@@ -27,7 +27,7 @@ body {
 }
 
 .s1 a {
-  color: #24B4B1;
+  color: #1A7A78;
   text-decoration: none;
   cursor: pointer;
 }
@@ -35,16 +35,16 @@ body {
 .s1 a:hover {
   text-decoration: underline;
   cursor: pointer;
-  color: hotpink;
+  color: #0F4D4C;
 }
 
 .s1 a:active {
-  color: hotpink;
+  color: #083030;
   cursor: pointer;
 }
 
 .s1 a:visited {
-  color: #006495;
+  color: #0B5151;
   cursor: pointer;
 }
 
