@@ -20,33 +20,33 @@
   <body>
     <div id="fullpage">
       <section class="section s1" id="open" role="main">
-        <h1 style="position: absolute; left: -9999px;">De Dierenvriend - Dierenspeciaalzaken.</h1> <!--*INLINE CSS-->
+        <h1 role="banner" style="position: absolute; left: -9999px;">De Dierenvriend - Dierenspeciaalzaken.</h1> <!--*INLINE CSS-->
         <img src="./img/dier-logo-comp.webp" alt="Logo van de Dierenvriend." id="wrapper-logo">
         <div id="stores">
           <div id="barendrecht-winkel">
               <p>Carnisse Veste Barendrecht</p>
               <p>openingstijden:</p>
               <ul aria-label="Openingstijden">
-                  <li class="maandag">Ma<h2 class="dis">andag</h2>: 11:00 - 18:00</li>
-                  <li>Di<h2 class="dis">nsdag</h2>: 09:00 - 18:00</li>
-                  <li>Wo<h2 class="dis">ensdag</h2>: 09:00 - 18:00</li>
-                  <li>Do<h2 class="dis">nderdag</h2>: 09:00 - 18:00</li>
-                  <li>Vr<h2 class="dis">ijdag</h2>: 09:00 - 18:00</li>
-                  <li>Za<h2 class="dis">terdag</h2>: 09:00 - 17:30</li>
-                  <li>Zo<h2 class="dis">ndag</h2>: 12:00 - 17:00</li>
+                  <li aria-label="Openingstijd-maandag" class="maandag">Ma<h2 class="dis">andag</h2>: 11:00 - 18:00</li>
+                  <li aria-label="Openingstijd-dinsdag">Di<h2 class="dis">nsdag</h2>: 09:00 - 18:00</li>
+                  <li aria-label="Openingstijd-woensdag">Wo<h2 class="dis">ensdag</h2>: 09:00 - 18:00</li>
+                  <li aria-label="Openingstijd-donderdag">Do<h2 class="dis">nderdag</h2>: 09:00 - 18:00</li>
+                  <li aria-label="Openingstijd-vrijdag">Vr<h2 class="dis">ijdag</h2>: 09:00 - 18:00</li>
+                  <li aria-label="Openingstijd-zaterdag">Za<h2 class="dis">terdag</h2>: 09:00 - 17:30</li>
+                  <li aria-label="Openingstijd-zondag">Zo<h2 class="dis">ndag</h2>: 12:00 - 17:00</li>
               </ul>
           </div>
           <div id="rotterdam-winkel" aria-label="Openingstijden">
               <p>Rotterdam Lombardijen</p>
               <p>openingstijden:</p>
               <ul>
-                  <li class="maandag">Ma<h2 class="dis">andag</h2>: 09:00 - 18:00</li>
-                  <li>Di<h2 class="dis">nsdag</h2>: 09:00 - 18:00</li>
-                  <li>Wo<h2 class="dis">ensdag</h2>: 09:00 - 18:00</li>
-                  <li>Do<h2 class="dis">nderdag</h2>: 09:00 - 18:00</li>
-                  <li>Vr<h2 class="dis">ijdag</h2>: 09:00 - 18:00</li>
-                  <li>Za<h2 class="dis">terdag</h2>: 09:00 - 17:00</li>
-                  <li>Zo<h2 class="dis">ndag</h2>: Gesloten</li>
+                  <li aria-label="Openingstijd-maandag" class="maandag">Ma<h2 class="dis">andag</h2>: 09:00 - 18:00</li>
+                  <li aria-label="Openingstijd-dinsdag">Di<h2 class="dis">nsdag</h2>: 09:00 - 18:00</li>
+                  <li aria-label="Openingstijd-woensdag">Wo<h2 class="dis">ensdag</h2>: 09:00 - 18:00</li>
+                  <li aria-label="Openingstijd-donderdag">Do<h2 class="dis">nderdag</h2>: 09:00 - 18:00</li>
+                  <li aria-label="Openingstijd-vrijdag">Vr<h2 class="dis">ijdag</h2>: 09:00 - 18:00</li>
+                  <li aria-label="Openingstijd-zaterdag">Za<h2 class="dis">terdag</h2>: 09:00 - 17:00</li>
+                  <li aria-label="Openingstijd-zondag">Zo<h2 class="dis">ndag</h2>: Gesloten</li>
               </ul>
           </div>
       </div>
@@ -54,12 +54,12 @@
         <span id="dikker">Op deze pagina vindt u meer informatie over:</span>
       </h2>
       <ul id="services" role="navigation">
-        <li class="bezorgertje"><a href="#" onclick="scrollToSection(2)">De bezorgservice</a></li>
-        <li><a href="#" onclick="scrollToSection(3)">De Dr. Woof dierenkliniek</a></li>
-        <li><a href="#" onclick="scrollToSection(4)">Servicepunten</a></li>
+        <li aria-label="Bezorgservice-link" class="bezorgertje"><a href="#" onclick="scrollToSection(2)">De bezorgservice</a></li>
+        <li aria-label="Dr.Woof-link"><a href="#" onclick="scrollToSection(3)">De Dr. Woof dierenkliniek</a></li>
+        <li aria-label="Servicepunten-link"><a href="#" onclick="scrollToSection(4)">Servicepunten</a></li>
       </ul>
       </section>
-      <section class="section s2" id="meer-bezorgen" aria-label="Bezorgservice-informatie">
+      <section class="section s2" id="meer-bezorgen" role="region" aria-label="Bezorgservice-informatie">
         <h1>Bezorgservice</h1>
         <div class="description" id="bezorgservice-cont">
           <p>
@@ -73,7 +73,7 @@
         </div>
         <img src="./img/bezorg.webp" class="chair c2" id="bezorger" loading="lazy" alt="Het logo van een bezorgbusje.">
       </section>
-      <section class="section s3" id="meer-drwoof" aria-label="Dierenkliniek-informatie">
+      <section class="section s3" id="meer-drwoof" role="region" aria-label="Dierenkliniek-informatie">
         <h1>Dr. Woof</h1>
         <div class="description">
           <p>
@@ -86,7 +86,7 @@
         </div>
           <img src="./img/drwoof-comp.webp" class="chair c2" id="woof-logo" loading="lazy" alt="Logo van de Dr. Woof dierenkliniek.">
       </section>
-      <section class="section s4" id="meer-dhl" aria-label="DHL-Servicepunten">
+      <section class="section s4" id="meer-dhl" role="region" aria-label="DHL-Servicepunten">
         <h1>DHL Servicepunten</h1>
         <div class="description" id="service-kleur">
           <p>
