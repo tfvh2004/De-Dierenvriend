@@ -66,15 +66,16 @@ body {
 .s2 a:hover {
   text-decoration: underline;
   cursor: pointer;
+  color: #171717;
 }
 
 .s2 a:active {
-  color: hotpink;
+  color: #000;
   cursor: pointer;
 }
 
 .s2 a:visited {
-  color: #DBDBDB;
+  color: #171717;
   cursor: pointer;
 }
 
@@ -86,7 +87,7 @@ body {
 }
 
 .s3 a {
-  color: #FF766E;
+  color: #FF938F;
   text-decoration: none;
   cursor: pointer;
 }
@@ -94,10 +95,11 @@ body {
 .s3 a:hover {
   text-decoration: underline;
   cursor: pointer;
+  color: #FF7570;
 }
 
 .s3 a:active {
-  color: hotpink;
+  color: #FF706B;
   cursor: pointer;
 }
 
