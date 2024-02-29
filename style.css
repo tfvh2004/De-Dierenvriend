@@ -153,6 +153,7 @@ body {
   color: #fff;
 }
 
+
 .description p {
   margin: 50px 0px;
 }
@@ -230,10 +231,6 @@ body {
   font-size: 16px;
 }
 
-/*#service-kleur {
-  color: #0C4966;
-}*/
-
 #bezorgservice-cont {
   color: #0C4966;
 }
@@ -269,6 +266,14 @@ body {
 
 .bezorgertje {
   margin-top: 1%;
+}
+
+.Punten {
+  list-style-type: none;
+}
+
+.Punten li {
+margin-left: 5%;
 }
 
 @media screen and (max-width: 428px) {
@@ -307,8 +312,6 @@ body {
     margin-top: 8%;
   }
 
-
-
   .section h1 {
     font-size: 40px; 
   }
@@ -346,6 +349,10 @@ body {
 
   #bezorgservice-cont {
     margin-top: 25%;
+  }
+
+  .Punten {
+    font-size: 16px;
   }
 }
 
