@@ -50,7 +50,8 @@ body {
 
 /* Section 2 */
 .s2 {
-  background-color: #24B4B1;
+  background-color:  #9CEFEE;
+  color:#0C4966;
 }
 
 .s2 h1 {
@@ -58,7 +59,7 @@ body {
 }
 
 .s2 a {
-  color: #01283B;
+  color: #FF6B6B;
   text-decoration: none;
   cursor: pointer;
 }
@@ -66,28 +67,28 @@ body {
 .s2 a:hover {
   text-decoration: underline;
   cursor: pointer;
-  color: #171717;
+  color: #FFA07A;
 }
 
 .s2 a:active {
-  color: #000;
+  color: #800000;
   cursor: pointer;
 }
 
 .s2 a:visited {
-  color: #171717;
+  color: #9370DB;
   cursor: pointer;
 }
 
 /* Section 3 */
 
 .s3 {
-  background-color: #0C4966;
-  color: #FFF4E3;
+  background-color: #24B4B1;
+  color: #fff;
 }
 
 .s3 a {
-  color: #FF938F;
+  color: #FFA500;
   text-decoration: none;
   cursor: pointer;
 }
@@ -95,23 +96,23 @@ body {
 .s3 a:hover {
   text-decoration: underline;
   cursor: pointer;
-  color: #FF7570;
+  color: #FFD700;
 }
 
 .s3 a:active {
-  color: #FF706B;
+  color: #800000;
   cursor: pointer;
 }
 
 .s3 a:visited {
-  color: #DBDBDB;
+  color: #8A2BE2;
   cursor: pointer;
 }
 
 /* Section 4 */
 
 .s4 {
-  background-color:  #9CEFEE;
+  background-color: #0C4966;
   color:#0C4966;
 }
 
@@ -189,7 +190,7 @@ body {
 }
 
 #meer-bezorgen h1 {
-  color: #fff;
+  color: #0C4966;
 }
  
 /* Images */
@@ -219,9 +220,8 @@ body {
   display: block;
 }
 
-
 #rotterdam-winkel {
-  text-align: right;
+  text-align: left;
 }
 
 .dis {
@@ -230,12 +230,17 @@ body {
   font-size: 16px;
 }
 
-#service-kleur {
+/*#service-kleur {
+  color: #0C4966;
+}*/
+
+#bezorgservice-cont {
   color: #0C4966;
 }
 
 #meer-dhl h1 {
   text-align: center;
+  color: #fff;
 }
 
 .phone-number {
