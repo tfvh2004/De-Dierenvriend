@@ -36,4 +36,30 @@ document.addEventListener("DOMContentLoaded", function () {
   function scrollToSection(sectionIndex) {
     myFullpageInstance.moveTo(sectionIndex);
   }
+
+  // Add event listeners to links
+  const bezorgserviceLink = document.querySelector('[aria-label="Bezorgservice-link"] a');
+  const drWoofLink = document.querySelector('[aria-label="Dr.Woof-link"] a');
+  const servicepuntenLink = document.querySelector('[aria-label="Servicepunten-link"] a');
+
+  if (bezorgserviceLink) {
+    bezorgserviceLink.addEventListener('click', function (event) {
+      event.preventDefault();
+      scrollToSection(2);
+    });
+  }
+
+  if (drWoofLink) {
+    drWoofLink.addEventListener('click', function (event) {
+      event.preventDefault();
+      scrollToSection(3);
+    });
+  }
+
+  if (servicepuntenLink) {
+    servicepuntenLink.addEventListener('click', function (event) {
+      event.preventDefault();
+      scrollToSection(4);
+    });
+  }
 });
